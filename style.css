@@ -48,13 +48,13 @@ html body{
         top: 0; 
      }
     table th{ 
-        position: sticky;
+        position: static;
         top: 0; 
         }
 
     table  { 
         
-        border-collapse: sticky; 
+        border-collapse: collapsed; 
         width: 100%; 
     }
     td , tr { 
