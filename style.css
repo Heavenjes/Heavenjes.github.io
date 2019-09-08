@@ -44,6 +44,8 @@ html body{
         overflow-y: auto; 
         height: 200px;
         background-color: #e409905d;
+        position: sticky;
+        top: 0; 
      }
     table th{ 
         position: sticky;
@@ -77,8 +79,4 @@ html body{
     }
     #btn-unsub:hover{
         color: rgb(184, 17, 25);
-    }
-    .table-card-body{
-        position: sticky;
-        top: 0;
     }
