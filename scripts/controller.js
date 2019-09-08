@@ -4,6 +4,7 @@ var client;
 var btnPublish = $("#publish-btn")
 var rowNumber = 1;
 var topicArray = [];
+var test;
 
 
 
