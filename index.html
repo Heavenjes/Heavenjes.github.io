@@ -31,14 +31,14 @@
                             <div class="card-body">
                                 <label for="input-broker-ws"> Address:</label>
 
-                                <input type="text" class="form-control" id="input-broker-ws" value="ws://broker.hivemq.com:8000/mqtt"><br>
+                                <input type="text" class="form-control" id="input-broker-ws" value="wss://test.mosquitto.org:8081/mqtt"><br>
 
                                 <button id="btn-connect" class="btn btn-outline-successy">Connect</button>
 
                                 <button class="btn btn-outline-danger pure-button btn-disconnect">Disconnect</button>
                             </div>
                         </center>
-                        <label for="status" id ="sta">Status:</label>
+                        <label for="status" id="sta">Status:</label>
 
                         <center>
                             <p id="status"><b><i>Disconnected</i></b></p>
@@ -47,8 +47,8 @@
                     </div>
                 </div>
             </div>
-            
-        
+
+
             <!-- column 2 -->
             <div class="col">
                 <div class="card">
@@ -89,8 +89,8 @@
                             </div>
 
                             <center>
-                                <button id="btn-sub" class ="btn btn-primary" >Subscribe</button>
-                                <button id="btn-unsub"  class= "btn btn-primary">Unsubscribe</button>
+                                <button id="btn-sub" class="btn btn-primary">Subscribe</button>
+                                <button id="btn-unsub" class="btn btn-primary">Unsubscribe</button>
                             </center>
 
                         </div>
@@ -104,19 +104,20 @@
         <br>
         <div class="table card-body" id="table">
             <table>
-                    <tr class="bg-info">
+                <tr class="bg-info">
                     <th>Topic</th>
                     <th>Payload</th>
                     <th>Timestamp</th>
                 </tr>
             </table>
             <br>
-            <button style="width: 100%;" class="btn btn-danger card-body" id="btn-clear"><strong style="font-size: 20px;">Clear History</strong></button>
+            <button style="width: 100%;" class="btn btn-danger card-body" id="btn-clear"><strong style="font-size: 20px;">Clear
+                    History</strong></button>
         </div>
 
-        
-        <script src="C:\Users\2ndyrgroupb\Desktop\ToringSD\mows\scripts\browserMqtt.js"></script>
-        <script src="C:\Users\2ndyrgroupb\Desktop\ToringSD\mows\scripts\controller.js"></script>
+
+        <script src="C:\Users\2ndyrgroupb\Desktop\Heavenjes.github.io\scripts\browserMqtt.js"></script>
+        <script src="C:\Users\2ndyrgroupb\Desktop\Heavenjes.github.io\scripts\controller.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
 
