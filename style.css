@@ -1,7 +1,7 @@
 
 html body{
         height: 100%;
-        background-image: url("");
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAJCXWzRf7OVetTgmpNugBsBvf_fmDYHu9mxIZZoRFBiI82ny");
         background-size: cover;
 
         background-attachment: fixed;
@@ -10,7 +10,7 @@ html body{
 
     .card{
         height: 350px;
-        background-color: #7b0afd7a;
+        background-color: #0ad9fd9c;
         border-width:5px;  
     }
     .form-control{
