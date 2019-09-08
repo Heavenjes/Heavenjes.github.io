@@ -18,7 +18,7 @@ var test;
 $('#btn-connect').on('click', function () {
   // connect
   console.log("connect button clicked..")
-  client = mqtt.connect("ws://broker.hivemq.com:8000/mqtt")
+  client = mqtt.connect("wss://test.mosquitto.org:8081/mqtt")
   $("#status").text("Connecting....")
   $("#status").css("color", "yellow")
   $("#status").css("font-style", "italic")
