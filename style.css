@@ -44,17 +44,17 @@ html body{
         overflow-y: auto; 
         height: 200px;
         background-color: #e409905d;
-        /* position: sticky;
-        top: 0;  */
-     }
-    /* table th{ 
         position: sticky;
         top: 0; 
-        } */
+     }
+    table th{ 
+        position: sticky;
+        top: 0; 
+        }
 
     table  { 
         
-        border-collapse: collapse; 
+        border-collapse: sticky; 
         width: 100%; 
     }
     td , tr { 
