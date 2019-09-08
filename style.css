@@ -17,6 +17,7 @@ html body{
         border-width:5px;  
         border-style:groove;
         position: sticky;
+        top: 0;
     }
     #status{
         color: red;
