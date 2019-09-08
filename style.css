@@ -16,6 +16,7 @@ html body{
     .form-control{
         border-width:5px;  
         border-style:groove;
+        position: sticky;
     }
     #status{
         color: red;
