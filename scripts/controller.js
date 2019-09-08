@@ -8,8 +8,6 @@ var test;
 
 
 
-// client = mqtt.connect("ws://broker.hivemq.com:8000/mqtt")
-// client.subscribe("mqtt/demo")
 
 
 
